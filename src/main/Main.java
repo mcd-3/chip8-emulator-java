@@ -2,6 +2,7 @@ package main;
 
 import chip.Chip;
 import ui.EmulatorFrame;
+import ui.EmulatorWindow;
 
 public class Main extends Thread {
 
@@ -28,8 +29,8 @@ public class Main extends Thread {
         }
     }
 
-    public static void main(String[] args) {
-        Main main = new Main();
-        main.start();
-    }
+//    public static void main(String[] args) {
+//        Main main = new Main();
+//        main.start();
+//    }
 }
